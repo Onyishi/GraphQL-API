@@ -1,0 +1,24 @@
+{
+  "name": "GraphQL-API",
+  "version": "1.0.0",
+  "description": "GraphQL API with Node.js | Prisma | Docker | Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onyishi/GraphQL-API.git"
+  },
+  "keywords": [],
+  "author": "Onyishi Chetachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onyishi/GraphQL-API/issues"
+  },
+  "homepage": "https://github.com/Onyishi/GraphQL-API#readme",
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "graphql": "^15.5.1"
+  }
+}
