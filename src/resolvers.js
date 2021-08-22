@@ -4,7 +4,7 @@ const { students } = require('./database.js')
 
 const resolvers = {
 
-  students: {
+  Students: {
     id: (parent, args, context, info) => parent.id,
     email: (parent) => parent.email,
     fullName: (parent) => parent.fullName,
