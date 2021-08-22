@@ -22,7 +22,6 @@ const typeDefs = gql`
         enroll(id: ID!): Student
     }
     `
-
-    module.exports = {
-        typeDefs,
-    }
+module.exports = {
+  typeDefs,
+}
